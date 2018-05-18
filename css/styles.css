@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 5.625em; /* 90px/16px */
+  font-size: 5.625rem; /* 90px/16px */
   color: white;
 }
 
@@ -23,7 +23,7 @@ h3 {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: orange;
+  color: rgb(255, 169, 73);
 }
 
 a:visited {
@@ -43,19 +43,19 @@ a:active {
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: solid 10px orange;
+  border-bottom: solid 10px #ffa949;
 }
 
 /* Class Selectors ----------------- */
 
 .main-header {
-  background-color: orange;
+  background-color: #ffa949;
   text-align: center;
 }
 
 .title {
   color: white;
-  font-size: 1.625em; /* 26px/16px */
+  font-size: 1.625rem; /* 26px/16px */
 }
 
 .primary-content,
